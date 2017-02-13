@@ -6,7 +6,7 @@
                 <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" alt="profile picture" />
                 <h1 class="name">{{site.name}}</h1>
                 <h3 class="tagline">{{site.tagline}}</h3>
-                <h6 class="tagline">{{site.tagline2}}</h6>
+                <small><h6 class="tagline">{{site.tagline2}}</h6></small>
             </div><!--//profile-container-->
             
             <div class="contact-container container-block">
@@ -28,6 +28,7 @@
             </div><!--//contact-container-->
            {% include education.html %}
            {% include language.html %}
+           {% include voluntary_work.html %}
            {% include interests.html %}
         
             
