@@ -279,7 +279,7 @@ p {
   color: #fb866a;
 }
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .sidebar-wrapper {
     position: static;
     width: inherit;
