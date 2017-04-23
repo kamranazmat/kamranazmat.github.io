@@ -1,1 +1,0 @@
-Kamran Azmat - Personal Portfolio
